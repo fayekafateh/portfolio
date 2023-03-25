@@ -1,2 +1,2 @@
-# UX_UI_HW_20_CaseStudy1
-Case Study Got To Go App
+# Case Study #1
+Got To Go
