@@ -71,13 +71,14 @@ h5{
 }
 
 .divider{
-    transform: translateX(13vw);
-    width: 1135px;
+    transform: translateX(7.5%);
+    width: 85%;
     height: 3px;
     background-color: #48742C;
     margin-top: 8rem;
     margin-bottom: 5rem;
 }
+
 .heading{
     color: #763D14;
 }
@@ -136,7 +137,6 @@ a:active{
     display: flex;
     position: fixed;
     width: 100%;
-    margin-top: -2.5rem;
     z-index: 2;
 }
 
@@ -177,6 +177,14 @@ a:active{
 .MyLogo{
     height: 40px;
 }
+
+#greyBox{
+    height: 76px;
+    width: 100%;
+    background-color: #353535;
+}
+
+
 /* HERO SECTION */
 
 .heroSection{
@@ -187,7 +195,6 @@ a:active{
     height: 445px;
     display: flex;
     justify-content: center;
-    margin-top: 5vh;
 }
 
 .herocontainer{
