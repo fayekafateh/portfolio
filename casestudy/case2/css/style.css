@@ -35,6 +35,10 @@ h5{
     color: #763D14;
 }
 
+li{
+    padding: 10px;
+}
+
 .HLeft{
     transform: translateX(11vw);
     margin-bottom: 3rem;
@@ -284,6 +288,72 @@ a:active{
     width: 100%;
 }
 
+/* Usability Testing */
+.usrTtl{
+    color: #763D14;
+    font-size: 14pt;
+    font-weight: 700;
+}
+
+.userComments{
+    background-color: #E0DA8A;
+    font-size: 11pt;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 30px 0px;
+    border-radius: 1rem;
+    height: 13rem;
+    width: 11rem;
+}
+
+.userComments2{
+    background-color: #CEE3CC;
+    font-size: 11pt;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 30px 0px;
+    border-radius: 1rem;
+    height: 13rem;
+    width: 11rem;
+}
+/* IDEATION--------------------------------------------------- */
+/* Prioritization Matrix */
+.priorMtrx{
+    width: 100%;
+}
+
+/* Invision Moodboard */
+.UIsmpl{
+    margin-top: 3rem;
+    width: 100%;
+    box-shadow: 0px 0px 24px rgb(102, 102, 102);
+}
+
+.UIptrn{
+    margin-top: 3rem;
+    width: 100%;
+    box-shadow: 0px 0px 24px rgb(102, 102, 102);
+}
+
+.UIgov{
+    margin-top: 3rem;
+    width: 100%;
+    box-shadow: 0px 0px 24px rgb(102, 102, 102);
+}
+
+/* Heuristic Evaluation of Navigation */
+.topNavtest{
+    width: 100%;
+}
+
+.sideNavtest{
+    width: 100%;
+}
+
+.ftrNavtest{
+    width: 100%;
+}
+
 /* Footer ------------------------------------------------*/
 .footerlogo{
     margin-left: 55px;
@@ -338,11 +408,7 @@ footer{
     padding-right: 50px;
 }
 
-ul{
-    list-style-type: none;
-}
-
-li{
+.footer li{
     list-style-type: none;
     padding: 10px;
 }
@@ -360,6 +426,7 @@ li{
     display: flex;
     align-items: center;
     margin: 0px 10px;
+    box-shadow: 0px 6px 12px rgb(102, 102, 102);
 }
 
 .icons2 img{
