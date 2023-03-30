@@ -52,14 +52,14 @@ li{
 
 .HCenterG{
     text-align: center;
-    color: #48742C;
-    
+    color: #48742C;    
     margin: 20px 0px;
 }
 
 .HLeftG{
     color: #48742C;
     margin: 20px 0px;
+    font-size: 16pt;
 }
 
 .Pbold{
@@ -352,6 +352,118 @@ a:active{
 
 .ftrNavtest{
     width: 100%;
+}
+
+/* Card Sorting */
+.crdSrt{
+    width: 85%;
+    margin-left: 7%;
+}
+
+/* UI Style Tile */
+.uistyle{
+    width: 100%;
+    box-shadow: 0px 0px 24px rgb(102, 102, 102);
+}
+
+/* Site Map */
+.sitemap{
+    width: 100%;
+}
+
+/* PROTOTYPING-------------------------------------------------- */
+/* Iterating Desktop Homepage */
+.dskhomepg{
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+/* Features on Homepage */
+.dskFtr{
+    width: 75%;
+    margin-left: 12%;
+    margin-bottom: 5rem;
+}
+
+/* Iterating Phone Homepage */
+.phnHomepg{
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+/* Hi-Fi Usability Testing */
+.userCommentsHifi{
+    background-color: #E0DA8A;
+    font-size: 11pt;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 30px 0px;
+    border-radius: 1rem;
+    height: 13rem;
+    width: 11rem;
+}
+
+.userComments2Hifi{
+    background-color: #CEE3CC;
+    font-size: 11pt;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 30px 0px;
+    border-radius: 1rem;
+    height: 13rem;
+    width: 11rem;
+}
+
+/* Further Hi-Fi Iterations */
+.DetailA{
+    width: 75%;
+    margin-top: 5rem;
+}
+
+.DetailB{
+    width: 55%;
+    margin-top: 5rem;
+}
+
+.DetailC{
+    width: 70%;
+    margin-top: 5rem;
+}
+
+.DetailD{
+    width: 95%;
+    margin-top: 5rem;
+}
+
+/* Desktop Hi-Fi Prototype */
+.DskProto{
+    height: 80vh;
+    margin-left: 10%;
+}
+
+/* Phone Hi-Fi Prototype */
+.PhnProto{
+    width: 100%;
+}
+
+.gtgprototypecontainer{
+    display: flex;
+    align-items: center;
+    /* margin-left: 15%; */
+    padding: 5vw 0vw 5vw 10vw;
+    background-color: #9BC698;
+    width: 100%;
+    border-radius: 3rem;
+    
+}
+
+.pVerticalC{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    text-align: left;
+    /* color: white; */
+    font-weight: 800;
 }
 
 /* Footer ------------------------------------------------*/
