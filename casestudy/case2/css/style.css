@@ -419,16 +419,19 @@ a:active{
 .DetailA{
     width: 75%;
     margin-top: 5rem;
+    margin-left: 12%;
 }
 
 .DetailB{
     width: 55%;
     margin-top: 5rem;
+    margin-left: 23%;
 }
 
 .DetailC{
     width: 70%;
     margin-top: 5rem;
+    margin-left: 15%;
 }
 
 .DetailD{
@@ -437,33 +440,54 @@ a:active{
 }
 
 /* Desktop Hi-Fi Prototype */
+
 .DskProto{
-    height: 80vh;
+    width: 100%;
+    margin-top: 3rem;
+    box-shadow: 5px 5px 12px rgb(102, 102, 102);
+    /* height: 80vh;
+    margin-left: 10%; */
+}
+
+.pVerticalCDsk{
+    margin-top: 12rem;
+    margin-bottom: 6rem;
+    margin-left: 10%;
+    text-align: left;
+    /* color: white; */
+    font-weight: 800;
+}
+
+.buttonCenterA{
+    width: 290px;
     margin-left: 10%;
 }
+
 
 /* Phone Hi-Fi Prototype */
 .PhnProto{
     width: 100%;
 }
 
-.gtgprototypecontainer{
+.DAssistPhnProto{
     display: flex;
     align-items: center;
     /* margin-left: 15%; */
-    padding: 5vw 0vw 5vw 10vw;
-    background-color: #9BC698;
-    width: 100%;
-    border-radius: 3rem;
-    
+    padding: 5vw 0vw 5vw 10vw;    
 }
 
 .pVerticalC{
     margin-top: 6rem;
     margin-bottom: 6rem;
+    margin-left: 10%;
     text-align: left;
     /* color: white; */
     font-weight: 800;
+}
+
+.buttonCenter{
+    width: 290px;
+    margin-left: 10%;
 }
 
 /* Footer ------------------------------------------------*/
