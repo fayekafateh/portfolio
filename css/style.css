@@ -340,6 +340,8 @@ h2{
     z-index: 1;
     margin-top: 40px;
     margin-left: 20px;
+    border-radius: 15px;
+    filter: drop-shadow(5px 5px 5px grey);
 }
 
 .dAssistimage2{
@@ -383,6 +385,30 @@ h2{
     z-index: 1;
     margin-top: 30px;
     margin-left: 128px;
+}
+
+.Unveiledsvgphone{
+    display: none;
+    height: 555px;
+    z-index: 1;
+    margin-top: 107px;
+    margin-left: -263px;
+}
+
+.UnveiledsvgIpad{
+    display: none;
+    height: 500px;
+    z-index: 1;
+    margin-top: 63px;
+    margin-left: -94px;
+}
+
+.UnveiledWebgif{
+    display: none;
+    height: 402px;
+    z-index: 1;
+    margin-top: 103px;
+    margin-left: -485px;
 }
 
 

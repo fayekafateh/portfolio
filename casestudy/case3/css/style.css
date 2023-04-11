@@ -17,6 +17,8 @@ body::-webkit-scrollbar-thumb{
 
 .slide{
     width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 h1{
@@ -244,217 +246,17 @@ a:active{
     /* border-radius: 3rem; */
 }
 
-/* RESEARCH---------------------------------------------------------------------- */
-
-/* Proto-persona */
-.protoPersona{
-    width: 80%;
-    margin-top: 5rem;
-    margin-left: 10%;
-}
-
-/* User Statement */
-.usrstate{
-    width: 100%;
-}
-
-/* User Path / flow */
-
-.applyOnline{
-    width: 100%;
-}
-
-.checkstatus{
-    width: 100%;
-}
-
-/* Website Annotations */
-.hPageone{
-    width: 100%;
-}
-
-.hPagetwo{
-    width: 100%;
-}
-
-/* Heuristic Evaluation */
-.heuEval{
-    width: 100%;
-    margin-top: 3rem;
-}
-
-/* Color Accessibility Test */
-.clrTestOne{
-    width: 100%;
-}
-
-.clrTestTwo{
-    width: 100%;
-}
-
-/* Usability Testing */
-.usrTtl{
-    color: #763D14;
-    font-size: 14pt;
-    font-weight: 700;
-}
-
-.userComments{
-    background-color: #E0DA8A;
-    font-size: 11pt;
-    text-align: center;
-    padding: 20px 10px;
-    margin: 30px 0px;
-    border-radius: 1rem;
-    height: 13rem;
-    width: 11rem;
-}
-
-.userComments2{
-    background-color: #CEE3CC;
-    font-size: 11pt;
-    text-align: center;
-    padding: 20px 10px;
-    margin: 30px 0px;
-    border-radius: 1rem;
-    height: 13rem;
-    width: 11rem;
-}
-/* IDEATION--------------------------------------------------- */
-/* Prioritization Matrix */
-.priorMtrx{
-    width: 100%;
-}
-
-/* Invision Moodboard */
-.UIsmpl{
-    margin-top: 3rem;
-    width: 100%;
-    box-shadow: 0px 0px 24px rgb(102, 102, 102);
-}
-
-.UIptrn{
-    margin-top: 3rem;
-    width: 100%;
-    box-shadow: 0px 0px 24px rgb(102, 102, 102);
-}
-
-.UIgov{
-    margin-top: 3rem;
-    width: 100%;
-    box-shadow: 0px 0px 24px rgb(102, 102, 102);
-}
-
-/* Heuristic Evaluation of Navigation */
-.topNavtest{
-    width: 100%;
-}
-
-.sideNavtest{
-    width: 100%;
-}
-
-.ftrNavtest{
-    width: 100%;
-}
-
-/* Card Sorting */
-.crdSrt{
-    width: 85%;
-    margin-left: 7%;
-}
-
-/* UI Style Tile */
-.uistyle{
-    width: 100%;
-    box-shadow: 0px 0px 24px rgb(102, 102, 102);
-}
-
-/* Site Map */
-.sitemap{
-    width: 100%;
-}
-
-/* PROTOTYPING-------------------------------------------------- */
-/* Iterating Desktop Homepage */
-.dskhomepg{
-    width: 100%;
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-}
-
-/* Features on Homepage */
-.dskFtr{
-    width: 75%;
-    margin-left: 12%;
-    margin-bottom: 5rem;
-}
-
-/* Iterating Phone Homepage */
-.phnHomepg{
-    width: 100%;
-    margin-bottom: 5rem;
-}
-
-/* Hi-Fi Usability Testing */
-.userCommentsHifi{
-    background-color: #E0DA8A;
-    font-size: 11pt;
-    text-align: center;
-    padding: 20px 10px;
-    margin: 30px 0px;
-    border-radius: 1rem;
-    height: 13rem;
-    width: 11rem;
-}
-
-.userComments2Hifi{
-    background-color: #CEE3CC;
-    font-size: 11pt;
-    text-align: center;
-    padding: 20px 10px;
-    margin: 30px 0px;
-    border-radius: 1rem;
-    height: 13rem;
-    width: 11rem;
-}
-
-/* Further Hi-Fi Iterations */
-.DetailA{
-    width: 75%;
-    margin-top: 5rem;
-    margin-left: 12%;
-}
-
-.DetailB{
-    width: 55%;
-    margin-top: 5rem;
-    margin-left: 23%;
-}
-
-.DetailC{
-    width: 70%;
-    margin-top: 5rem;
-    margin-left: 15%;
-}
-
-.DetailD{
-    width: 95%;
-    margin-top: 5rem;
-}
+/* PROTOTYPING---------------------------------------------------------------------- */
 
 /* Desktop Hi-Fi Prototype */
 
-.DskProto{
+.PhnDskProto{
     width: 100%;
-    margin-top: 3rem;
-    box-shadow: 5px 5px 12px rgb(102, 102, 102);
-    /* height: 80vh;
-    margin-left: 10%; */
+    margin-top: 6rem;
 }
 
 .pVerticalCDsk{
-    margin-top: 12rem;
+    margin-top: 6rem;
     margin-bottom: 6rem;
     margin-left: 10%;
     text-align: left;
@@ -465,34 +267,9 @@ a:active{
 .buttonCenterA{
     width: 290px;
     margin-left: 10%;
+    margin-bottom: 5rem;
 }
 
-
-/* Phone Hi-Fi Prototype */
-.PhnProto{
-    width: 100%;
-}
-
-.DAssistPhnProto{
-    display: flex;
-    align-items: center;
-    /* margin-left: 15%; */
-    padding: 5vw 0vw 5vw 10vw;    
-}
-
-.pVerticalC{
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-    margin-left: 10%;
-    text-align: left;
-    /* color: white; */
-    font-weight: 800;
-}
-
-.buttonCenter{
-    width: 290px;
-    margin-left: 10%;
-}
 
 /* Footer ------------------------------------------------*/
 .footerlogo{

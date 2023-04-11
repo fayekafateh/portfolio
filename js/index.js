@@ -24,7 +24,10 @@ $(".mFerals").hover(function(){
     $(".mFeralsButton").fadeIn(3000)
     $(".mFeralsimage1").fadeIn(3000)
     $(".mFeralsgif1").fadeIn(3000)
-    $(".mFeralsgif2").fadeIn(3000);
+    $(".mFeralsgif2").fadeIn(3000)
+    $(".Unveiledsvgphone").fadeIn(3000)
+    $(".UnveiledsvgIpad").fadeIn(3000)
+    $(".UnveiledWebgif").fadeIn(3000);
 
 })
 
