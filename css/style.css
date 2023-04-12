@@ -419,7 +419,17 @@ h2{
 
 
 /* MY EXPERIENCE */
-#expflex{
+.ExpGIF{
+    height: 65vh;
+    width: auto;
+}
+
+#ExpFlex{
+    display: flex;
+    justify-content: center;
+}
+
+/* #expflex{
     display: flex;
     width:60rem;
 }
@@ -472,7 +482,7 @@ h2{
     position: relative;
 }
 /* Experience Grid CSS */
-#experienceGrid{
+/* #experienceGrid{
     margin: 0 10px;
     justify-content: center;
     display: grid;
@@ -524,7 +534,7 @@ h2{
 }
 #stem img{
     width:63px;
-}
+} */
 
 /* MY SKILLS */
 #headline{
@@ -613,7 +623,7 @@ h2{
 #aboutMeGrid{
     display: grid;
     justify-content: center;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 40% 45%;
     grid-template-rows: max-content;
     grid-template-areas: 
     "AMprofile AMcontent";
@@ -625,12 +635,16 @@ h2{
     margin: 50px;
 }
 
+#AMprofile img{
+    width: 100%;
+}
+
 #AMcontent{
     grid-area: AMcontent;
-    padding-left: 70px;
-    margin-right: 100px;
+    padding-left: 20px;
+    margin-right: 10px;
     align-self: center;
-    width: 610px;
+    width: 700px;
 }
 
 /* CONTACT */
