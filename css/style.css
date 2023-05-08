@@ -632,7 +632,7 @@ h2{
 #AMprofile{
     grid-area: AMprofile;
     text-align: center;
-    margin: 50px;
+    margin: 100px 50px;
 }
 
 #AMprofile img{
