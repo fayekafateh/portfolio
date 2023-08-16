@@ -37,62 +37,61 @@
             </div>
 
             <div class="navIcons">
-            
-                <div class="icons buttonTop">
-                    <a href="#hero">
+                <a href="#hero">
+                    <div class="icons buttonTop">Page Top
                         <img src="./images/Top_Nav/Top Button2.png">
-                        <div class="icontags">
+                        <!-- <div class="icontags">
                             <p class="icontagstop">Page Top</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="icons buttonPort">
-                    <a href="#Portfolio">
+                        </div> -->
+                    </div>
+                </a>
+                <a href="#Portfolio">
+                    <div class="icons buttonPort">Portfolio
                         <img src="./images/Top_Nav/Portfolio Button2.png">
-                        <div class="icontags">
+                        <!-- <div class="icontags">
                             <p class="icontagsPort">Portfolio</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="icons buttonExp">
-                    <a href="#Experience">
+                        </div> -->
+                    </div>
+                </a>
+                <a href="#Experience">
+                    <div class="icons buttonExp">Experience
                         <img src="./images/Top_Nav/Experience Button2.png">
-                        <div class="icontags">
+                        <!-- <div class="icontags">
                             <p class="icontagsexp">Experience</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="icons buttonSkl">
-                    <a href="#Skills">
+                        </div> -->
+                    </div>
+                </a>
+                <a href="#Skills">
+                    <div class="icons buttonSkl">Skills
                         <img src="./images/Top_Nav/Skills Button2.png">
-                        <div class="icontags">
+                        <!-- <div class="icontags">
                             <p class="icontagsSkl">Skills</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="icons buttonAbt">
-                    <a href="#About">
+                        </div> -->
+                    </div>
+                </a>
+                <a href="#About">
+                    <div class="icons buttonAbt">About Me
                         <img src="./images/Top_Nav/About Me Button2.png">
-                        <div class="icontags">
+                        <!-- <div class="icontags">
                             <p class="icontagsabt">About Me</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="icons buttonCon">
-                    <a href="#Contact">
+                        </div> -->
+                    </div>
+                </a>
+                <a href="#Contact">
+                    <div class="icons buttonCon">Contact
                         <img src="./images/Top_Nav/Contact Me Button2.png">
-                        <div class="icontags">
+                        <!-- <div class="icontags">
                             <p class="icontagscon">Contact</p>
-                        </div>
-                    </a>
-                </div>
-        </div>
+                        </div> -->
+                    </div>
+                </a>
+            </div>
     </header>
 
     <!-- HERO SECTION -->
     <section id="hero" class="heroSection">
         <img src="./images/Hero_Section/Creeper Background Green2.png" />
-        <img class="heroImage" src="./images/Hero_Section/My Picture.png">
+        <img class="heroImage" id="heroimgLeft" src="./images/Hero_Section/My Picture.png">
         <div class="content">
             <h2>Hi I'm Fayeka</h2>
             <p class="myTitle">| UX UI Designer | Architect |</p>
@@ -396,11 +395,15 @@
             delay: 400
         });
 
-        ScrollReveal().reveal('#Design', { delay: 100 });
-        ScrollReveal().reveal('#Tools', { delay: 500 });
-        ScrollReveal().reveal('#Others', { delay: 900 });
-        ScrollReveal().reveal('#AMprofile', { delay: 100 });
+        ScrollReveal().reveal('#hero', { origin: 'left' });
+        ScrollReveal().reveal('#ExpFlex', { origin: 'left' });
+        ScrollReveal().reveal('#Design', { delay: 100 , origin: 'right' });
+        ScrollReveal().reveal('#Tools', { delay: 500 , origin: 'right' });
+        ScrollReveal().reveal('#Others', { delay: 900 , origin: 'right' });
+        ScrollReveal().reveal('#AMprofile', { delay: 100 , origin: 'top'});
         ScrollReveal().reveal('#AMcontent', { delay: 500 });
+        ScrollReveal().reveal('#contactheadline', { origin: 'left' });
+        ScrollReveal().reveal('#contactdets', { origin: 'right' });
     </script>
     
     
