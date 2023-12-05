@@ -2,6 +2,7 @@
 body{
     font-family: 'Comfortaa', cursive;
     width: 100%;
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar{
@@ -14,6 +15,7 @@ body::-webkit-scrollbar-track{
 
 body::-webkit-scrollbar-thumb{
     background: #FF8B94;
+    border-radius: 10px;
 }
 
 h1{
@@ -404,7 +406,7 @@ h2{
 
 .UnveiledsvgIpad{
     display: none;
-    height: 500px;
+    height: 420px;
     z-index: 1;
     margin-top: 63px;
     margin-left: -94px;
@@ -412,10 +414,10 @@ h2{
 
 .UnveiledWebgif{
     display: none;
-    height: 402px;
+    height: 334px;
     z-index: 1;
-    margin-top: 103px;
-    margin-left: -485px;
+    margin-top: 97px;
+    margin-left: -407px;
 }
 
 
@@ -855,6 +857,10 @@ li{
 /*Responsive Web Design*/
 
 @media only screen and (max-width:1300px){
+
+    body {
+        overflow-x: hidden;
+    }
     
     /* About Me */
     #aboutMeGrid{
@@ -901,6 +907,15 @@ li{
 }
 
 @media only screen and (max-width:970px){
+
+    body {
+        overflow-x: hidden;
+    }
+   
+    .navigation{
+        scale: 0.75;
+    }
+
     /* My Skills */
     #skillGrid{
         margin: 0 120px;
@@ -916,6 +931,10 @@ li{
 
 
 @media only screen and (max-width:760px){
+
+    body {
+        overflow-x: hidden;
+    }
     
     #skillGrid{
         margin: 0 120px;
@@ -944,6 +963,11 @@ li{
 }
 
 @media only screen and (min-width: 735px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
     .navigation{
         width: 100%;
         height: 97px;
@@ -952,6 +976,11 @@ li{
 }
 
 @media only screen and (max-width: 735px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    
     .navigation{
         bottom: 0;
         width: 100%;
