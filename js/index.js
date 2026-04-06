@@ -19,12 +19,9 @@ $(".dAssist").hover(function(){
 })
 
 $(".mFerals").hover(function(){
-    $(".mFeralsbox").css("transform","translateX(100px)")
-    $(".h1mFerals").css("transform","translateX(-100px)")
-    $(".mFeralsButton").fadeIn(3000)
-    $(".mFeralsimage1").fadeIn(3000)
-    $(".mFeralsgif1").fadeIn(3000)
-    $(".mFeralsgif2").fadeIn(3000)
+    $(".Unveiledbox").css("transform","translateX(100px)")
+    $(".h1Unveiled").css("transform","translateX(-100px)")
+    $(".UnveiledButton").fadeIn(3000)
     $(".Unveiledsvgphone").fadeIn(3000)
     $(".UnveiledsvgIpad").fadeIn(3000)
     $(".UnveiledWebgif").fadeIn(3000);

@@ -19,14 +19,14 @@ body::-webkit-scrollbar-thumb{
 }
 
 h1{
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Comfortaa', cursive;
     width: 100%;
     font-weight: 400;
-    font-size: 20pt;
+    font-size: 24pt;
 }
 
 h5{
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Comfortaa', cursive;
     width: 100%;
     font-weight: 700;
     font-size: 14pt;
@@ -48,7 +48,7 @@ button{
     color: white;
     border: 0pt;
     border-radius:0px 30px 0px 30px;
-    padding: 17px 53px;
+    padding: 17px 51px;
     font-weight: 400;
     font-size: 14pt;
     width: 284px;
@@ -57,10 +57,14 @@ button{
 }
 
 button:hover{
-    background-color: #48742C;
-    color: white;
+    background-color: white;
+    border-style: solid;
+    border-color: #FF8B94;
+    border-width: 2px;
+    color: #FF8B94;
+    font-weight: 700;
     cursor: pointer;
-    box-shadow: 0px 0px 10px 6px #FF8B94;
+    box-shadow: 0px 0px 10px 6px #ff8b9571;
     transition: 400ms;
 }
 
@@ -276,7 +280,7 @@ h2{
     transition: 2s ease;
 }
 
-.mFeralsbox{
+.Unveiledbox{
     display: flex;
     transform: translateX(-130px);
     transition: 2s ease;
@@ -295,7 +299,7 @@ h2{
     background-color: #9BC698 ; */
 }
 
-.h1gtg, .h1mFerals{
+.h1gtg, .h1Unveiled{
     transform: translateX(470px);
     transition: 2s ease;
     /* animation-name: slide;
@@ -310,7 +314,7 @@ h2{
     transition: 2s ease;
 }
 
-.gtgButton, .mFeralsButton{
+.gtgButton, .UnveiledButton{
     display: none;
     width: 210px;
     align-self: center;
@@ -372,29 +376,6 @@ h2{
     scale: .945;
 }
 
-.mFeralsimage1{
-    display: none;
-    height: 760px;
-    z-index: 1;
-    margin-top: -40px;
-    margin-left: -270px;
-}
-
-.mFeralsgif1{
-    display: none;
-    height: 315px;
-    z-index: 1;
-    margin-top: 124px;
-    margin-left: -719px;
-}
-
-.mFeralsgif2{
-    display: none;
-    height: 450px;
-    z-index: 1;
-    margin-top: 30px;
-    margin-left: 128px;
-}
 
 .Unveiledsvgphone{
     display: none;
